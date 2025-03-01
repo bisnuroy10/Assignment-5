@@ -53,3 +53,13 @@
   font-weight: 900;
   font-style: normal;
 }
+
+.forInput{
+  margin-top: 5px;
+  margin-top: 5px;
+  padding: 10px;
+  background-color: gray;
+  color :azure;
+  border-radius: 5px;
+
+}
