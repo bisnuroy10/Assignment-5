@@ -129,7 +129,7 @@ document.getElementById("btn-6").addEventListener("click", function(){
  const point = document.getElementById("point").innerText;
   const finalPoint = point - 1;
   document.getElementById("point").innerText = finalPoint;
-  alert("Your Point in Empty");
+  alert("Board Update Successfully");
 
   const newFile = document.createElement("p");
   newFile.classList.add("forInput");
@@ -149,3 +149,4 @@ document.getElementById("btn-6").addEventListener("click", function(){
 document.getElementById("clear-btn").addEventListener("click", function(){
   document.getElementById("button-click-effect").style.display = "none";
 })
+
